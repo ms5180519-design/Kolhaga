@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#df6249">
+  <meta name="description" content="مطلوب مناديب مبيعات لديهم خبرة للعمل بشركة مستلزمات طبية ومستحضرات تجميل في الإسكندرية. التقديم عبر واتساب.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="مطلوب مناديب مبيعات | الإسكندرية">
+  <meta property="og:description" content="فرصة عمل بشركة مستلزمات طبية ومستحضرات تجميل. يشترط وجود خبرة. تواصل عبر واتساب.">
+  <title>مطلوب مناديب مبيعات | الإسكندرية</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202b29;
+      --paper: #f5f3e9;
+      --coral: #df6249;
+      --coral-dark: #c94d38;
+      --green: #16755a;
+      --lime: #d7ed83;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Noto Sans Arabic", "Noto Naskh Arabic", Tahoma, sans-serif;
+      line-height: 1.7;
+    }
+
+    .topline {
+      height: 8px;
+      background: var(--lime);
+    }
+
+    .masthead,
+    .content,
+    .footer-inner {
+      width: min(1080px, calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .masthead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 82px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .masthead-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .masthead-mark {
+      width: 13px;
+      height: 13px;
+      border-radius: 3px;
+      background: var(--coral);
+      transform: rotate(45deg);
+    }
+
+    .masthead-place {
+      color: #64716c;
+      font-weight: 500;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background: var(--coral);
+      color: #fffaf0;
+    }
+
+    .hero::after {
+      position: absolute;
+      top: -110px;
+      left: 8%;
+      width: 330px;
+      height: 330px;
+      border: 1px solid rgb(255 250 240 / 22%);
+      border-radius: 50%;
+      content: "";
+      box-shadow: 0 0 0 36px rgb(255 250 240 / 7%), 0 0 0 72px rgb(255 250 240 / 5%);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: min(1080px, calc(100% - 48px));
+      min-height: 400px;
+      margin-inline: auto;
+      padding-block: 62px 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .eyebrow {
+      margin: 0 0 17px;
+      padding: 5px 13px;
+      border: 1px solid rgb(255 250 240 / 48%);
+      border-radius: 2px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: 62px;
+      line-height: 1.2;
+      font-weight: 800;
+    }
+
+    .hero-copy {
+      max-width: 570px;
+      margin: 20px 0 0;
+      color: #fff0e8;
+      font-size: 19px;
+    }
+
+    .details {
+      padding-block: 56px 66px;
+    }
+
+    .details-heading {
+      margin: 0 0 24px;
+      font-size: 25px;
+      line-height: 1.4;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      border-block: 1px solid #d5d7ca;
+    }
+
+    .fact {
+      min-height: 125px;
+      padding: 22px 24px;
+    }
+
+    .fact + .fact {
+      border-right: 1px solid #d5d7ca;
+    }
+
+    .fact-label {
+      display: block;
+      margin-bottom: 7px;
+      color: #64716c;
+      font-size: 14px;
+    }
+
+    .fact-value {
+      display: block;
+      font-size: 19px;
+      font-weight: 700;
+    }
+
+    .contact {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding-top: 37px;
+    }
+
+    .contact-copy h2 {
+      margin: 0 0 3px;
+      font-size: 22px;
+    }
+
+    .contact-copy p {
+      margin: 0;
+      color: #64716c;
+    }
+
+    .whatsapp {
+      display: inline-flex;
+      min-height: 54px;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 auto;
+      padding: 12px 24px;
+      border-radius: 3px;
+      background: var(--green);
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background-color 160ms ease, transform 160ms ease;
+    }
+
+    .whatsapp:hover {
+      background: #105c46;
+      transform: translateY(-2px);
+    }
+
+    .whatsapp:focus-visible {
+      outline: 3px solid var(--ink);
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid #d5d7ca;
+      color: #64716c;
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      padding-block: 17px;
+    }
+
+    @media (max-width: 680px) {
+      .masthead,
+      .content,
+      .footer-inner,
+      .hero-inner {
+        width: min(100% - 36px, 1080px);
+      }
+
+      .masthead {
+        min-height: 68px;
+        font-size: 13px;
+      }
+
+      .hero-inner {
+        min-height: 350px;
+        padding-block: 52px;
+      }
+
+      h1 {
+        max-width: 430px;
+        font-size: 43px;
+      }
+
+      .hero-copy {
+        font-size: 17px;
+      }
+
+      .details {
+        padding-block: 40px 48px;
+      }
+
+      .facts {
+        grid-template-columns: 1fr;
+      }
+
+      .fact {
+        min-height: 0;
+        padding: 17px 4px;
+      }
+
+      .fact + .fact {
+        border-top: 1px solid #d5d7ca;
+        border-right: 0;
+      }
+
+      .contact {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .whatsapp {
+        width: 100%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="topline" aria-hidden="true"></div>
+  <header class="masthead">
+    <span class="masthead-label"><span class="masthead-mark" aria-hidden="true"></span>فرصة عمل</span>
+    <span class="masthead-place">الإسكندرية</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="job-title">
+      <div class="hero-inner">
+        <p class="eyebrow">انضم إلى فريقنا</p>
+        <h1 id="job-title">مطلوب مناديب مبيعات</h1>
+        <p class="hero-copy">للعمل بشركة متخصصة في المستلزمات الطبية ومستحضرات التجميل في الإسكندرية.</p>
+      </div>
+    </section>
+
+    <section class="content details" aria-labelledby="details-title">
+      <h2 class="details-heading" id="details-title">تفاصيل الوظيفة</h2>
+      <div class="facts">
+        <div class="fact">
+          <span class="fact-label">مجال الشركة</span>
+          <span class="fact-value">مستلزمات طبية ومستحضرات تجميل</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">مكان العمل</span>
+          <span class="fact-value">الإسكندرية</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">المتطلبات</span>
+          <span class="fact-value">يشترط وجود خبرة</span>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="contact-copy">
+          <h2>مهتم بالوظيفة؟</h2>
+          <p>تواصل معنا مباشرة عبر واتساب على 01030973791</p>
+        </div>
+        <a class="whatsapp" href="https://wa.me/201030973791?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%85%20%D9%84%D9%88%D8%B8%D9%8A%D9%81%D8%A9%20%D9%85%D9%86%D8%AF%D9%88%D8%A8%20%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA" target="_blank" rel="noopener noreferrer">قدّم عبر واتساب</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">فرصة عمل في الإسكندرية</div>
+  </footer>
+</body>
+</html>
